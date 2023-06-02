@@ -8,7 +8,7 @@ export const options = {
       },
       servers: [
         {
-          url: "https://back-node-production-9647.up.railway.app/3000",
+          url: "https://back-node-production-9647.up.railway.app",
         },
       ],
     },
