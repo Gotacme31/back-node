@@ -1,6 +1,4 @@
 import app from './app'
 
-app.listen(port, "0.0.0.0", function () {
-    // ...
-  });
+app.listen(port)
 console.log('Server on port', port)
