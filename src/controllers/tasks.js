@@ -18,8 +18,9 @@ export const saveTask = async (req, res) => {
             let info = await transporter.sendMail({
                 from: 'batiz.jimenez.alery.nohemi@gmail.com', // sender address
                 to: data, // list of receivers
-                subject: `HOLA`, // Subject line
-                text:`Ingresa al siguiente link para contestar al formulario `, // plain text body
+                subject: `ZTARTOP`, // Subject line
+                text:`Ingresa al siguiente link para ayudarnos a contestar un sencillo formulario https://weblyn-production.up.railway.app/formu
+                si ya contestaste el formulario ignora este correo `, // plain text body
             });
             console.log("Mensaje enviado");
         
